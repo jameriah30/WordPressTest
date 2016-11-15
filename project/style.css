@@ -174,6 +174,15 @@ ul#menu li:hover a
 { width: 900px;
   margin-bottom: 10px;}
 
+.sidebar {
+  width: 200px;
+  float: left;
+  display: block;
+  padding: 10px 10px;
+  background: #00cc96;
+  margin-right: 20px;
+}
+
 .container
 { float: left;
   width: 900px;}  
