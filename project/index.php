@@ -12,6 +12,7 @@
 				<li><img width="900" height="350" src="" alt="&quot;&quot;" /></li>
 			</ul>
 		</div><!--close slideshow-->
+<?php get_sidebar();?>
 
 		<div id="content">
 			<h1></h1>

@@ -8,10 +8,10 @@
 
 <!--  <meta http-equiv="X-UA-Compatible" content="IE=9" />-->
   <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/image_slide.js"></script>
 
     <?php wp_head();?>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/image_slide.js"></script>
 </head>
 
 <body>
