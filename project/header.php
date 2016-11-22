@@ -7,7 +7,7 @@
 	<title>Sound Wellness and Counseling</title>
 
 <!--  <meta http-equiv="X-UA-Compatible" content="IE=9" />-->
-  <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/image_slide.js"></script>
 
