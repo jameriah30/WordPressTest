@@ -17,7 +17,7 @@
         <h4>Contact Us</h4>
         <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
         <div class="readmore">
-            <a href="contact.php">Contact Mariana</a>
+            <a href="www.jameriah.org/contact/">Contact Mariana</a>
         </div><!--close readmore-->
     </div><!--close content_cream_container_box1-->
     <br style="clear:both"/>
@@ -33,6 +33,7 @@
     </div><!--close footer-->
     <?php wp_footer();?>
 </div><!--close footer_container-->
+
 
 </body>
 </html>

@@ -13,7 +13,9 @@ General comments (optional).
 
 
 html
-{ height: 100%;}
+{ height: 100%;
+  background-color: transparent;
+}
 
 *
 { margin: 0;
@@ -21,8 +23,8 @@ html
 
 body
 { font: normal 80% Arial, Helvetica, sans-serif;
-  color: #FFF;
-  background: transparent url(../images/background.jpg) repeat;  
+  /*color: #FFF;*/
+  /*background: url(images/background.jpg) repeat;*/
 }
 
 p
@@ -33,7 +35,7 @@ p
 img
 { border: 0;}
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 { font: normal 175% Arial, Helvetica, sans-serif;
   color: #FFF;
   text-shadow: 0px -1px 0px #000;
@@ -83,12 +85,12 @@ ol li
 { margin: 0 0 11px 0;}
 
 #main, #header, #banner, #menubar, #site_content, #footer, #content_cream
-{ margin-left: auto; 
+{ margin-left: auto;
   margin-right: auto;}
 
 #main
 { background: transparent;}
-  
+
 #header
 { height: 80px;}
 
@@ -106,23 +108,23 @@ ol li
   margin: 0 auto;
   padding-left: 20px;
   padding-top: 5px;
-  background: transparent;}   
-   
+  background: transparent;}
+
 #welcome H1
 { font: normal 250% Arial, Helvetica, sans-serif;
   letter-spacing: -3px;
   text-shadow: 1px 1px #000;
   color: #FFF;}
-  
+
 #menu_container
-{ height: 50px;}  
-  
+{ height: 50px;}
+
 #menubar
 { width: 560px;
   height: 50px;
   float: right;
-  margin: 0 auto;} 
-  
+  margin: 0 auto;}
+
 ul#menu
 { margin:0;}
 
@@ -140,18 +142,18 @@ ul#menu li a
   margin: 10px 0 0 20px;
   text-shadow: 0px -1px 0px #000;
   padding: 6px 10px 0 10px;
-  background: transparent; 
+  background: transparent;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
   text-align: center;
   color: #FFF;
-  text-decoration: none;} 
-  
+  text-decoration: none;}
+
 ul#menu li.current a
 { color: #FEFFCF;
   text-shadow: none;}
-  
+
 ul#menu li:hover a
 { color: #FEFFCF;
   text-shadow: none;}
@@ -161,15 +163,16 @@ ul#menu li:hover a
   overflow: hidden;
   padding-left: 20px;
   padding-bottom: 20px;
-  background: transparent url(../images/transparent.png) repeat;  
+  background: transparent url(../images/transparent.png) repeat;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px} 
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px}
 
 #content
 { width: 900px;
+  color: black;
   float: left;}
-  
+
 .content_item
 { width: 900px;
   margin-bottom: 10px;}
@@ -177,7 +180,7 @@ ul#menu li:hover a
 .sidebar {
   width: 200px;
   float: left;
-  display: block;
+  display: inline;
   padding: 10px 10px;
   background: #00cc96;
   margin-right: 20px;
@@ -186,8 +189,8 @@ ul#menu li:hover a
 
 .container
 { float: left;
-  width: 900px;}  
-  
+  width: 900px;}
+
 .counseling
 { width: 242px;
   float: left;
@@ -197,26 +200,26 @@ ul#menu li:hover a
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;}
-  
+
 .counseling h3
  { color: #000;
-  text-shadow: 1px 1px #FFF;}  
-  
+  text-shadow: 1px 1px #FFF;}
+
 .wellness
 { width: 243px;
-  margin-left: 26px;  
+  margin-left: 26px;
   float: left;
   padding: 20px;
   background: #FEFFCF;
   color: #000;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;}  
-  
+  -webkit-border: 7px 7px 7px 7px;}
+
 .wellness h3
  { color: #000;
-  text-shadow: 1px 1px #FFF;}  
-  
+  text-shadow: 1px 1px #FFF;}
+
 .prevention
 { width: 243px;
   margin-left: 26px;
@@ -226,17 +229,17 @@ ul#menu li:hover a
   color: #000;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;} 
-  
+  -webkit-border: 7px 7px 7px 7px;}
+
 .prevention h3
  { color: #000;
-  text-shadow: 1px 1px #FFF;}  
-  
+  text-shadow: 1px 1px #FFF;}
+
 .content_container
 { width: 440px;
   margin-right: 10px;
   float: left;}
-  
+
 .more
 { font: bold 110% Arial, Helvetica, sans-serif;
   float: left;
@@ -248,31 +251,31 @@ ul#menu li:hover a
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
-  
+
 .more a
 { color: #000;
   text-shadow: none;}
-  
+
 #content_cream
  { width: 940px;
   height: 160px;
-  text-align: center; 
+  text-align: center;
   background: #FEFF95;
   background: -moz-linear-gradient(#FEFFCF, #FEFF95);
   background: -o-linear-gradient(#FEFFCF, #FEFF95);
   background: -webkit-linear-gradient(#FEFFCF, #FEFF95);
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}  
-  
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+
 #content_cream p
  { color: #000;
-  text-shadow: 1px 1px #FFF;}  
+  text-shadow: 1px 1px #FFF;}
 
 #content_cream h4
  { color: #000;
-  text-shadow: 1px 1px #FFF;}  
-  
+  text-shadow: 1px 1px #FFF;}
+
 .content_cream_container_box
 { width: 270px;
   padding: 5px;
@@ -286,21 +289,21 @@ ul#menu li:hover a
   text-align: center;
   margin: 20px 0 10px 10px;
   float: left;}
- 
+
 #footer_container
 { height: 60px;
   margin-top: 30px;
   background: #382922;
   background: -moz-linear-gradient(#554137, #382922);
   background: -o-linear-gradient(#554137, #382922);
-  background: -webkit-linear-gradient(#554137, #382922);} 
- 
+  background: -webkit-linear-gradient(#554137, #382922);}
+
 #footer
 { width: 940px;
   height: 20px;
   font-weight: bold;
   padding-top: 20px;
-  text-align: center; 
+  text-align: center;
   background: transparent;
   text-shadow: 1px 1px #000;
   color: #FFF;}
@@ -313,7 +316,7 @@ ul#menu li:hover a
 
 #footer a:hover
 { text-decoration: none;}
-  
+
  .readmore
 { font: bold 110% Arial, Helvetica, sans-serif;
   float: left;
@@ -329,11 +332,11 @@ ul#menu li:hover a
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
-  
+
  .readmore a
 { color: #FFF;
   text-shadow: 1px 1px #000;}
- 
+
  .button_small
 { font: normal 110% Arial, Helvetica, sans-serif;
   float: left;
@@ -348,7 +351,7 @@ ul#menu li:hover a
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
-  
+
 .button_small a
 { color: #FFF;
   padding-left: 5px;
@@ -361,36 +364,36 @@ ul#menu li:hover a
 { padding: 0 0 4px 0;}
 
 .form_settings span
-{ float: left; 
-  width: 280px; 
+{ float: left;
+  width: 280px;
   text-align: left;}
-  
+
 .form_settings input, .form_settings textarea
-{ padding: 2px; 
-  width: 299px; 
-  font: 100% arial; 
-  border: 1px solid #E5E5DB; 
-  background: #FFF; 
+{ padding: 2px;
+  width: 299px;
+  font: 100% arial;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
   color: #47433F;}
-  
+
 .form_settings input[type="checkbox"]
-{ padding: 2px 0; 
-  width: 15px; 
-  font: 100% arial; 
-  border: 0; 
-  background: #FFF; 
+{ padding: 2px 0;
+  width: 15px;
+  font: 100% arial;
+  border: 0;
+  background: #FFF;
   color: #47433F;
   margin: 28px 0;}
 
 .form_settings .submit
-{ font: 100% arial; 
-  border: 1px solid; 
+{ font: 100% arial;
+  border: 1px solid;
   font-weight: bold;
-  width: 99px; 
-  margin: 0 0 0 206px; 
+  width: 99px;
+  margin: 0 0 0 206px;
   height: 26px;
   padding: 2px 0 3px 0;
-  cursor: pointer; 
+  cursor: pointer;
   background: #FEFF95;
   background: -moz-linear-gradient(#FEFFCF, #FEFF95);
   background: -o-linear-gradient(#FEFFCF, #FEFF95);
@@ -404,8 +407,10 @@ ul#menu li:hover a
   margin-bottom: 40px;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;}
-  
+  -webkit-border: 7px 7px 7px 7px;
+
+}
+
 /* styling for the slideshow on the homepage */
 ul.slideshow {
   list-style: none;
@@ -414,33 +419,33 @@ ul.slideshow {
   overflow: hidden;
   position: relative;
   margin: 20px 0 0 0;}
-  
+
 ul.slideshow li {
   position: absolute;
   margin: 0;
   padding: 0;
   left: 0;
   right: 0;}
- 
+
 ul.slideshow li.show {
   z-index: 500;}
- 
+
 ul img {
   border: none;}
- 
+
 #slideshow-caption {
   width: 900px;
   height: 38px;
   position: absolute;
   bottom: 0;
-  left: 0; 
+  left: 0;
   z-index: 500;}
- 
+
 #slideshow-caption .slideshow-caption-container {
-  padding: 10px 25px 10px 25px; 
-  background: transparent url(../images/transparent.png) repeat;  
+  padding: 10px 25px 10px 25px;
+  background: transparent url(../images/transparent.png) repeat;
   z-index: 1000;}
- 
+
 #slideshow-caption p {
   padding: 0;
   font: normal 130% arial, sans-serif;

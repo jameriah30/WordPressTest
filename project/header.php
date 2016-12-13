@@ -19,6 +19,7 @@
 <div id="main">
     <div id="header">
         <div id="banner">
+            <?php get_sidebar();?>
             <div id="welcome">
                 <h1></h1>
             </div><!--close welcome-->
